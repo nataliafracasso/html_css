@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(46, 189, 189, 0.74);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(23, 23, 230);
+}
+
+
+h1#principal{
+    color: blue;
+    text-align: center;
+    
+}
+
+.basico{
+    color: crimson;
+    font-weight: bolder;
+}
+
+.intermediario{
+    color: brown;
+}
+
+.avancado{  
+    color: darkgreen;
+}
