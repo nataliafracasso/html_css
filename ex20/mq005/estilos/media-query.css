@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*Lembrar do Device breackpoints, tamanhos de telas*/
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    main{
+        width: 768px; /*O tamanhho da caixa do main se torna 768px quando a tela fica grande, ficando "travado"*/
+    }
+}

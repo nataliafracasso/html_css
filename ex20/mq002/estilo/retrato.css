@@ -1,0 +1,8 @@
+@charset "UFT-8";
+
+/*APARELHO RETRATO, MODO (PORTRATION)*/
+
+body{
+   background-image: url(../imagem/cev-portrait.jpg);
+   background-position: center bottom;
+}

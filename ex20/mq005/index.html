@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MEDIA QUERY /MENU AMBURGUINHO</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()"><!--Controle pro menu funcionar em telas diferentes-->
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons md-36" onclick="clickMenu()">menu</span>
+        <menu id="itens"><!--Para fazer o menu amburguinho é preciso colocar o menu em um id
+        -->
+            <ul>
+                <li><a href="#">Opção 1 </a></li>
+                <li><a href="#">Opção 1</a></li>
+                <li> <a href="#">Opção 3</a></li>
+                <li> <a href="#">Opção 4</a></li>
+                <li> <a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptas illum quasi exercitationem voluptatum amet. Aperiam blanditiis, id voluptate ad nesciunt delectus iure? Labore facilis quasi nobis? Iusto, rerum doloremque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus non voluptas magnam delectus nemo similique porro culpa temporibus earum laudantium ut dolores autem, placeat, ad rerum eius cum corporis architecto!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aspernatur aperiam facilis quam quis eaque? Quos sequi excepturi recusandae aliquid, ab cupiditate nulla quibusdam ut dolorem minima omnis dolorum in?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sit eligendi unde dolor accusamus quibusdam! Iste eius minima pariatur cupiditate facere expedita dicta quaerat unde eveniet, qui dolores amet molestias.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur amet soluta minima atque? Laboriosam veritatis dolores, reprehenderit voluptatum assumenda nam nobis necessitatibus, quidem soluta nisi delectus aliquid aut aperiam voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repudiandae reprehenderit dolore soluta eligendi quaerat. Modi, similique excepturi laudantium temporibus in animi unde explicabo impedit, blanditiis consequatur, possimus inventore nam!</p>
+
+        </article>
+    </main>
+    <script> 
+        function mudouTamanho() { /*Testa a largura da tela em relação ao menu*/
+ 
+            if (window.innermin-width >= 778) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+
+        }
+        function clickMenu(){ /*Testa a funcionalidade do menu*/
+
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>

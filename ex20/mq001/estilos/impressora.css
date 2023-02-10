@@ -1,0 +1,24 @@
+@charset "UFT8";
+
+/*ESTILO PARA IMPRESSORA*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em; /*Espaçamento entre as linhas*/
+}
+
+menu{
+    display: none;
+    /*A configuração dysplay= none, some com o meu para impressão*/
+}
+article{
+    width: 100%;
+}
+article::after{ /*Adiciona conteudo após o article, somente para impressão*/
+    content: 'Esse artigo foi impresso pelo site...';
+}
