@@ -17,7 +17,7 @@
         }
         thead > tr > th{ /*fixar o cabeçalho*/
             position: sticky; /*tag para fixar o conteúdo do cabeçalho*/
-            top:-1px;/*acabar com o espaço da grade do cabeçalho e o inicio da borda do "google"*/
+            top:-1px;/*acabar com o espaço da grade do cabeçalho e o inicio da borda da tela*/
             background-color: lightslategrey;/*colocar cor no conteúdo fixado*/
         }
         caption{ /*configurações da legenda da tabela*/
@@ -31,12 +31,12 @@
             padding: 10px;
             
         }
-        tbody >tr:nth-child(2n){ /*Efeito zebrado, usando pseudo classe. 0 2 en significa que vai pular 2 linhas, pode-se pular quantas linhas desejar, basta mudar o numero de n*/
+        tbody >tr:nth-child(2n){ /*Efeito zebrado, usando pseudo classe. 2°n significa que vai pular 2 linhas, pode-se pular quantas linhas desejar*/
             background-color: lightblue;
         }
         .numero{
             text-align: right;
-            width: 100px;/*largura do espaço entre a linha e o conteudo dentro do quadrado*/
+            width: 100px;/*largura do espaço entre a linha e o conteúdo dentro do quadrado*/
         }
         thead, tfoot{
             background-color: lightslategrey;
@@ -149,6 +149,7 @@
             <th scope="row"><!--Esse título faz referncia ao dado que esta ao lado-->Total de habitantes</th>
             <td class="numero">0000</td>
         </tfoot>
+        <!---O contúdo dessa tabela não tem relevancia,  pois é para praticar-->
     </table>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque sit quis accusantium excepturi, aliquid beatae eos nihil quae praesentium perferendis voluptates temporibus! Culpa dolore nesciunt laudantium porro ipsa! Perferendis.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit adipisci earum quisquam aut, quis assumenda, nulla facilis totam impedit fuga vitae odit aliquid cumque laudantium? Provident ratione obcaecati perspiciatis?</p>
