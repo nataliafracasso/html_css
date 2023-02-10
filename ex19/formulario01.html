@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form  method="post" autocomplete="off">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text"name=usu id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome do usuário" autocomplete="username"> <!--Sempre que for obrigatório o preenchhimento do campo é preciso utilizar a configuração(required) dentro do input-->
+            <!--minlength, mínimo de letras maxlength, maxímo de letras-->
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="15" size="10" placeholder="mín. 8 letras" autocomplete="current-password"> 
+            <!--current-password, senha atual-->
+        </p>
+        <p>
+            <input type="submit" value="enviar"> <!--Botãode enviar-->
+            <input type="reset" value="limpar"> <!--Botão de limpar-->
+        </p>
+    </form>
+</body>
+</html>

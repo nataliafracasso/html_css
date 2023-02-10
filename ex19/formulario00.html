@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Esse primeiro formulário está "funcional", no entanto não é a melhor forma de se fazer-->
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off" method="post"><!--autocomplete para de aparecer uma barra para o cliente que facilita o preencimento dos dados--> 
+        <!--A dois tipos de METHOD, 1° é padrão GET, no qual os dados aparecem na URL do navegador e o 2° é o POST, na qual os dados não aprecem na URL do navegador. Ambos não protegem os dados do usuário.-->
+        <p><label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome"></p> <!--É preciso relacionar o label com o imput, nesse caso é adicionado ao (label for)o (id)-->
+        <p><label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
