@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+        body{
+            background-image:linear-gradient( to right, #68D186, #4F9E65);
+            background-attachment: fixed;
+            font-family: 'Amatic SC', 'cursive';
+            font-weight:normal;
+            font-size: 2em;
+        }
+        main{
+            background-color: white;
+            padding: 100px;
+            width: 500px;
+            padding-inline-start: 50px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px #4F9E65;
+            text-align: center;     
+         }
+        div > p{
+            display: none;
+
+        }
+        div:hover > p{
+            display: block;
+            color: black;
+        }
+        div:hover{
+        color:#225731 ;
+        }
+    
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre  texto abaixo </p>
+    <div>
+        Passe o mouse aqui
+        <p><img src="imagem/child.jpg" alt="foto de crianças"></p>
+    </div>
+    </main>
+    
+</body>
+</html>

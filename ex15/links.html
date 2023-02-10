@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = ide
+            . = class
+            : = pseudo class
+            :: = pseudo element
+            >  = filho
+        
+        */
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none;/*Sem o sublinhado*/
+            font-weight: bold;
+        }
+        a:visited{
+            color: red; /*color quando visita o site*/
+        }
+        a:hover{
+            text-decoration: underline;/*Quando o mouse passa o link, o mesmo fica sublinhado*/
+            color: black;
+        }
+        a:active{
+            color: yellow;/*Quando clica no link, o mesmo fica amarelo*/
+        }
+        a::before{
+            content:'☛ ';
+        }
+        a::after{ /* Depois dos links, vou colocar algum conteúdo*/
+            content:' [link]'; /*Contúdo*/
+            text-decoration: none;
+            font-weight: normal;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <ul type="square">
+        <li><a href="https://github.com/nataliafracasso" target="_blank" rel="external">Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="external">Canal do YouTue</a></li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="extenal">Site do Curso em Vídeo</a></li>
+
+    </ul>
+    
+</body>
+</html>
