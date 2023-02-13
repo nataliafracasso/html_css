@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute e relative</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+            width: 220px;
+            height: 120px;
+            background-color: lightcoral;
+            position:relative;/*O elemento absolute se comporta em relação ao position relative(pai)*/
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            display: flex; /*configura a posição dos filhos da caixa (box-one box-wo), os elementos dentro das caixas*/
+            align-items: center; /*altura*/
+            justify-content: center;/*horizontal*/
+        }  
+        .box-one{
+            background-color: cyan;
+            position: absolute;
+            top:10px;
+            left: 10px;
+            
+        }
+        .box-two{
+            background-color: yellow;
+            position: absolute;
+            top:10px;
+            left:110PX;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class=" box box-one">B1</div>
+        <div class="box box-two">B2</div>
+    </div>
+</body>
+</html>
