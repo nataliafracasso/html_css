@@ -5,43 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Efeito flip 3D</title>
-    <style>
-        *{
-            padding: 0px;
-            margin: 0px;
-        }
-        .box{
-            background-color: transparent;/*não aprece os elementos*/
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .box_content{ /*Elemento pai das caixas box_front e box_back*/
-            background-color: pink;
-            width: 200px;
-            height: 200px;
-            position: relative;
-            transform-style: preserve-3d; /*preservar as propriedades 3D, "girar"*/
-            transition: 0.5s ease-in-out;
-        }
-        .box_back, .box_front{
-            background-color: purple;
-            padding: 5px;
-            font-size: 1.5em;
-            position: absolute;
-            width: 100%;/*Vai ficar 100% referente ao elemento pai*/
-            height: 100%;/*Vai ficar 100% referente ao elemento pai*/
-            backface-visibility: hidden;/*Não aparece a parte de trás (box_back)*/
-        }
-        .box_back{
-            background-color: lightblue;
-            transform: rotatey(180deg);/*girando o back, aparece visualmente a parte de trás*/
-        }
-        .box:hover .box_content{
-            transform: rotateY(180deg);/*faz o efeito de girar e mudar a caixa box_front para front_back*/
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="box">
