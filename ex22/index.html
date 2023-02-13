@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position relative e absolut</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+        .box-one{
+            background-color: cyan;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex; /*elementos filhos centralizados no centro*/
+            align-items: center;
+            justify-content: center;
+        }
+        .box-two{
+            background-color: yellow;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: grid; /*elementos filhos centralizados no centro*/
+            place-items: center; /*elementos filhos centralizados no centro*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!--Caixa que envolve todo o conteudo-->
+       
+        <div class="box box-one">B1</div>
+        <div class="box box-two">B2</div>
+       
+    </div>
+</body>
+</html>
