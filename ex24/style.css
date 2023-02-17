@@ -1,0 +1,27 @@
+@charset "UFT-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex-container{
+    height: 90vh;
+    background-color: beige;
+    display: flex;
+    flex-direction:row; /*direção do eixo principal*/
+    justify-content: start;/*eixo principal/ main axis*/
+    align-items: center;/*eixo transversal/cross axis*/
+    align-content:flex-start;/*alinha as linhas*/
+    flex-wrap: wrap;/*Quebra de linha, adaptando os elementos*/
+    gap: 30px;/*espaçamento entre os elementos*/
+    padding: 20px;
+}
+.flex-item{
+    width: 150px;
+    height: 90px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;/*alinhando os filhos*/
+    justify-content: center;
+    flex-grow: 5;
+    flex-basis: 200px;/*vai ter tamanhho inicial de 200px e se necessário vai quebrar a linha*/
+}
