@@ -5,9 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .flex-container{
+            height: 90vh;
+            background-color: beige;
+            display: flex;
+            flex-direction:row; /*direção do eixo principal*/
+            justify-content: start;/*eixo principal/ main axis*/
+            align-items: center;/*eixo transversal/cross axis*/
+            align-content:flex-start;/*alinha as linhas*/
+            flex-wrap: wrap;/*Quebra de linha, adaptando os elementos*/
+            gap: 30px;/*espaçamento entre os elementos*/
+            padding: 20px;
+        }
+        .flex-item{
+            width: 150px;
+            height: 90px;
+            background-color: bisque;
+            display: flex;
+            align-items: center;/*alinhando os filhos*/
+            justify-content: center;
+            flex-grow: 5;
+            flex-basis: 200px;/*vai ter tamanhho inicial de 200px e se necessário vai quebrar a linha*/
+        }
+    </style>
 </head>
 <body>
-    
+    <div class ="flex-container"><!---Pai dos flex item. Dentro do contaner vou organizar como os filhos vão se comportar -->
+    <div class="flex-item"> <!---Elementos de bloco-->
+        <h1>item 1</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 2</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 3</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 4</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 5</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 6</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 7</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 8</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 9</h1>
+    </div>
+    <div class="flex-item">
+        <h1>item 10</h1>
+    </div>
+    </div>
 </body>
 </html>
