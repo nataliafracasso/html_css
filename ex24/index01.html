@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+        }
+        .grid{
+            max-width: 1200px;
+            margin: 0 auto; /*centraliza a grid*/
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /*geralmente é o que se utiliza*/
+            /*configura o tamanho e a quantidade das colunas(px, %, fr)*/
+            /*1fr, um fragmento, se adequando ao tamnho do espaço, não tendo mais rolagem*/
+            gap: 30px 50px;/*espaçamento entre a grid*/
+            /*row-gap: espaçamento entre as linhhas ou column-gap: espaçamento entre as colunas*/
+            padding: 15px;
+        }
+        .grid  > div{
+            background-color: bisque;
+            min-height: 100px;   
+        }
+        .grid div:nth-child(5){
+            background-color: beige;
+            grid-row: span 2; /*configurar esse filho para ocupar quanto espaço desejar...*/
+        }
+        .grid div:nth-child(3){
+            background-color: beige;
+            grid-area: 1/1/2/2 ;/*linha que inicia, coluna que inicia, linha que termina e coluna que termina*/
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>06</div>
+        <div>07</div>
+        <div>08</div>
+        <div>09</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+    </div>
+</body>
+</html>
