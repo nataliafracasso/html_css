@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vídeo</title>
 </head>
 <body>
-    
+    <h1>Inserido vídeos hospedados localmente </h1>
+    <video src="video/meu-video.mp4" width="560" controls poster="imagem/limoes-capa.png"></video><!--Preciso ajustar o tamanho do vídeo com width e colocar controls para aparecer o play-->
+    <!--Ter a versão do vídeo com vários formatos, pois os navegadores são compativeis em determinados formatos-->
+    <h2>Inserindo o mesmo vídeo em duas versões</h2>
+     <video controls width="560" poster="imagem/limoes-capa.png" loop> <!--Poster serve para colocar capa-->
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/meu-video.ogv" type="video/ogv">
+     </video>
+     <h2>Inserindo vídeo do Youtube</h2>
+     <!--Inserindo vídeos do YouTube-->
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=HZl7UZrzHoikXVRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
