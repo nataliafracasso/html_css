@@ -1,0 +1,60 @@
+@charset "UFT-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffff;
+    overflow: hidden;
+    
+}
+.destaque_titulo{
+    color:#22D4FD ;
+}
+.apresentacao{
+    margin: 10% 15%; /* Colocando um espaço entre o main e o body, podendo aproximar os elementos ao centro*/
+    display: flex;
+    align-items: center; /*Alinha os elementos a partir dos proprios elementos, nesse caso, no elemento da imagem, pois é maior*/ 
+    justify-content: space-between; /* espaçamento entre os itens*/
+}
+.apresentacao_conteudo{
+    width: 615px; /*criar um tamanho p a box*/
+    display: flex; /*Organizar o título, conteúdo e os links*/
+    flex-direction: column;/*coloca os elementos em coluna*/
+    gap: 40px; /*espaçamentos entre os elemenos*/
+}
+.apresentacao_conteudo_titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.apresentacao_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao_links_link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21px 5px 21px 5px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
