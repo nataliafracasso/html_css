@@ -23,16 +23,16 @@ body{
     color:#22D4FD ;
 }
 .apresentacao{
-    margin: 10% 15%; /* Colocando um espaço entre o main e o body, podendo aproximar os elementos ao centro*/
+    margin: 8% 15%; 
     display: flex;
-    align-items: center; /*Alinha os elementos a partir dos proprios elementos, nesse caso, no elemento da imagem, pois é maior*/ 
-    justify-content: space-between; /* espaçamento entre os itens*/
+    align-items: self-start; 
+    justify-content: space-between; 
 }
 .apresentacao_conteudo{
-    width: 615px; /*criar um tamanho p a box*/
-    display: flex; /*Organizar o título, conteúdo e os links*/
-    flex-direction: column;/*coloca os elementos em coluna*/
-    gap: 40px; /*espaçamentos entre os elemenos*/
+    width: 615px; 
+    display: flex; 
+    flex-direction: column;
+    gap: 40px; 
 }
 .apresentacao_conteudo_titulo{
     font-size: 36px;
@@ -44,17 +44,32 @@ body{
 }
 .apresentacao_links{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 .apresentacao_links_link{
-    background-color: #22D4FD;
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 378px;
+    font-family:'Krona One', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px;
+    color: #F6F6F6;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
+    text-decoration: none;  
+}
+.apresentacao_links_link_subtitulo{
+    font-family:'Krona One', sans-serif;
     font-size: 24px;
-    padding: 21px 5px 21px 5px;
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
+}
+.apresentacao_links_link:hover{
+    cursor: pointer;
+    background-color: #272727;
 }
