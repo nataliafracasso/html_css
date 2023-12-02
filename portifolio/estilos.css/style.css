@@ -39,7 +39,7 @@ body{
     justify-content: space-between;   
 }
 .apresentacao_conteudo{
-    width: 615px; 
+    min-width: 500px; 
     display: flex; 
     flex-direction: column;
     gap: 40px; 
@@ -87,7 +87,7 @@ body{
     background-color: #272727;
 }
 .apresentacao_imagem{
-    padding-left:10% ;
+    padding:0% 0% 14% 10%;
 }
 .rodape{
     color: white;
