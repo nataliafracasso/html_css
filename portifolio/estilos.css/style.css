@@ -36,22 +36,17 @@ body{
     padding: 5% 15%; 
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-between;   
 }
-
 .apresentacao_conteudo{
     width: 615px; 
     display: flex; 
     flex-direction: column;
     gap: 40px; 
-    
 }
 .apresentacao_conteudo_titulo{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
-}
-#apresentacao_titulo_about{
-    padding-bottom: 3%;
 }
 .destaque_titulo{
     color:#22D4FD;
@@ -90,6 +85,9 @@ body{
 .apresentacao_links_link:hover{
     cursor: pointer;
     background-color: #272727;
+}
+.apresentacao_imagem{
+    padding-left:10% ;
 }
 .rodape{
     color: white;
