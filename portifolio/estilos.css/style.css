@@ -13,6 +13,7 @@
     padding: 0;
 }
 body{
+    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #ffff;    
@@ -34,17 +35,16 @@ body{
 .apresentacao{
     padding: 5% 15%; 
     display: flex;
-    align-items: self-start; 
+    align-items: center; 
     justify-content: space-between; 
 }
-#apresentacao_about{
-    margin-right: 10%;
-}
+
 .apresentacao_conteudo{
     width: 615px; 
     display: flex; 
     flex-direction: column;
     gap: 40px; 
+    
 }
 .apresentacao_conteudo_titulo{
     font-size: 36px;
