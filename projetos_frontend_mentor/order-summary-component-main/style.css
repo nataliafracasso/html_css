@@ -14,7 +14,7 @@
     --cor-terceira:hsl(225, 100%, 98%);
     --cor-quarta: hsl(224, 23%, 55%);
     --cor-quinta:hsl(223, 47%, 23%);
-    --cor-adaptada:hsl(227, 82%, 96%);
+    --cor-adaptada:hsla(229, 80%, 96%, 0.418);
     --cor-hover:hsla(245, 75%, 52%, 0.753);
 }
 body{
@@ -43,7 +43,7 @@ body{
     border-radius: 15px 15px 0px 0px;
 }
 .container_conteudo{
-    background-color: var(--cor-terceira);
+    background-color: white;
     max-width: 380px;
     border-radius: 15px;
 }
