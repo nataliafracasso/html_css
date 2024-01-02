@@ -43,7 +43,8 @@ body{
     padding: 5% 15%; 
     display: flex;
     align-items: center; 
-    justify-content: space-between;   
+    justify-content: space-between;  
+    gap: 82px ;/*espaçamento entre apresentação do conteudo e a imagem */ 
 }
 .apresentacao_conteudo{
     min-width: 50%; 
@@ -95,7 +96,7 @@ body{
 }
 .apresentacao_imagem{
     width: 50%;
-    padding:0% 0% 14% 10%;
+    
 }
 .rodape{
     color: var(--cor-segundaria);
@@ -105,4 +106,19 @@ body{
     font-family:var(--font-segundaria) ;
     font-size: 1.5rem;
     font-weight: 400;
+}
+@media (max-width:1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho_menu{ 
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao_conteudo{
+        width: auto; /*O apresentacação vai ocupar todo o espaço do pai*/
+    }
 }
