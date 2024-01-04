@@ -45,9 +45,6 @@ body{
     font-size: 1.75rem;
     font-weight: 700;
 }
-.apresentacao_img{
-    margin: 1em 0 2em 0;
-}
 .apresentacao_botao_azul{
     display: block;
     text-decoration: none;
@@ -65,17 +62,28 @@ body{
     font-size: 0.75rem;
     color: var(--cor-segundaria);
 }
-.apresentacao_segundaria{
+.container_apresentacao{
+    margin-left: 10%;
+}
+.apresentacao_section{
     margin: 0 10em;
 }
-.apresentacao_segundaria_img{
+.apresentacao_img{
     width: 80%;
+    margin: 1em 0 2em 0;
 }
 .apresentacao_subtitulo{
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.1em;
 }
-.apresentcacao_conteudo{
-    color: var(--cor-terciarira);
+.apresentacao_conteudo{
+    color: var(--cor-segundaria);
+    font-weight: 400;
+}
+.terceiro_botao{
+    margin-top: 1em;
+    width: 160px;
+    padding: 0.8em;
+    text-align: center;
 }
