@@ -93,6 +93,7 @@ body{
 }
 .dispositivos{
     text-align: center;
+    margin-top: 2.5em;
 }
 .dispositivos_lista{
     display: flex;
@@ -109,19 +110,22 @@ body{
     margin-bottom: 5em;
 }
 .rodape_img{
-    margin: 5em 0 2.5em;
+    margin: 6em 0 2em;
 }
 .rodape_lista{
     display: flex;
     justify-content: center;
     gap: 16px;
     list-style-type: none;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 .lista_link{
     text-decoration: none;
     font-size: 1rem;
     color: var(--cor-primeira);
+}
+.lista_link:hover{
+    color: var(--cor-botao);
 }
 .rodape_texto{
     font-size: 0.87rem;
