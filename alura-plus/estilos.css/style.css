@@ -65,7 +65,7 @@ body{
 .container_apresentacao{
     margin-left: 10%;
 }
-.apresentacao_section{
+.apresentacao_caixa{
     margin: 0 10em;
 }
 .apresentacao_img{
@@ -86,4 +86,47 @@ body{
     width: 160px;
     padding: 0.8em;
     text-align: center;
+}
+.dispositivos_titulo{
+    font-size: 3rem;
+    color: var(--cor-primeira);
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.litem_lista{
+    font-size: 2rem;
+    color: var(--cor-primeira);
+}
+.rodape{
+    text-align: center;
+    margin-bottom: 5em;
+}
+.rodape_img{
+    margin: 5em 0 2.5em;
+}
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+.lista_link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--cor-primeira);
+}
+.rodape_texto{
+    font-size: 0.87rem;
+    text-align: center;
+    color: var(--cor-segundaria);
+    margin-bottom: 1.5em;
+    padding: 0 4em 0 4em;
 }
