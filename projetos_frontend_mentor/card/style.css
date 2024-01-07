@@ -16,10 +16,15 @@
     --cor-azul: hsl(184, 100%, 22%);
     --cor-cinza:hsl(179, 100%, 13%);
     --cor-branco: #ffff; 
+    --cor-fundo: rgba(192, 192, 192, 0.315);
 
     --font_texto: 'Lexend Deca', sans-serif;
     --font_titulo: 'Big Shoulders Display', sans-serif;
 
+}
+body{
+    
+    background-color: var(--cor-fundo);
 }
 .caixa{
     height: 100vh;
@@ -69,7 +74,7 @@
     background-color: var(--cor-branco);
     width: 62%;
     padding: 6%;
-    margin-top: 35%;
+    margin-top: 25%;
     border-radius: 20px;
     text-align: center;
     font-family: var(--font_texto);
