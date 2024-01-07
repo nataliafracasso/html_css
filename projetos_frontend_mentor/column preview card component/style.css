@@ -1,0 +1,112 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0.90rem;
+}
+
+:root{
+    --cor-laranja:hsl(31, 77%, 52%);
+    --cor-azul: hsl(184, 100%, 22%);
+    --cor-cinza:hsl(179, 100%, 13%);
+    --cor-branco: #ffff; 
+
+    --font_texto: 'Lexend Deca', sans-serif;
+    --font_titulo: 'Big Shoulders Display', sans-serif;
+
+}
+.caixa{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin: 0 20% 0 20%;
+}
+.caixa_apresentacao{
+    padding: 10%;
+    min-height: 70%; 
+}
+.caixa_primeira{
+    background-color: var(--cor-laranja); 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.caixa_segunda{
+    background-color: var(--cor-azul);
+}
+.caixa_terceira{
+    background-color: var(--cor-cinza);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.caixa_img{
+    margin-top: 10%;
+}
+.caixa_apresentacao h1{
+    font-family: var(--font_titulo);
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:var(--cor-branco);
+    font-weight: 700;
+    margin: 12% 0 10%;
+}
+.caixa_apresentacao p{
+    font-family: var(--font_texto);
+    font-weight: 400;
+    color: var(--cor-branco);
+    line-height: 25px;
+    padding-right: 15%;
+}
+.caixa_apresentacao_botao{
+    display: block;
+    text-decoration: none;
+    background-color: var(--cor-branco);
+    width: 62%;
+    padding: 6%;
+    margin-top: 35%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: var(--font_texto);
+}
+.botao_laranja{
+    color: var(--cor-laranja);
+}
+.botao_azul{
+    color: var(--cor-azul);
+}
+.botao_cinza{
+    color: var(--cor-cinza);
+}
+.caixa_apresentacao_botao:hover{
+    background-color: transparent;
+    color: var(--cor-branco);
+    border: 2px solid var(--cor-branco);
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+    .caixa{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin:10%;
+    }
+    .caixa_primeira{
+        border-radius: 5px 5px 0 0;
+    }
+    .caixa_terceira{
+        border-radius: 0 0 5px 5px;
+        margin-bottom: 5%;
+    }
+    .caixa_apresentacao_botao{
+        margin-top: 15%;
+       
+    }
+
+}
