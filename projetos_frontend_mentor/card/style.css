@@ -95,7 +95,7 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        min-height: 65%;
+        min-height: 55%;
         margin:5%;
     }
     .caixa_primeira{
