@@ -30,7 +30,7 @@
 }
 .caixa_apresentacao{
     padding: 10%;
-    min-height: 70%; 
+    min-height: 60%; 
 }
 .caixa_primeira{
     background-color: var(--cor-laranja); 
