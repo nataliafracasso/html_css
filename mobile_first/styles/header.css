@@ -1,0 +1,49 @@
+
+.cabecalho_menu-hamburguer{
+    width: 48px;
+    height: 48px;
+    background-image:url(../img/Menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /*Quero que o menu se movimente de acordo com o cabeçario*/
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_img{
+    padding:1em;
+}
+.lista_menu{
+    display: none;/*some com a lista*/
+    position: absolute; /*Quero que o menu se movimente de acordo com o cabeçario*/
+    top:100%; /*Posicionando o menu em baixo do cabeçalho*/
+    width: 60vw;
+}
+.container_botao:checked ~ .lista_menu{ /*Se o botão for selecionado vai aparecer a lista menu. O sinal ~, está funcionando como uma "condicional"*/
+    display: block;
+}
+.lista_menu-titulo, .lista_menu-item{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+    font-size: 1rem;
+}
+.lista_menu-titulo{
+    color: var(--cor-titulo);
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+}
+.lista_menu_link{
+    text-decoration: none;
+    color: var(--cor-azul);
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    text-transform: uppercase;
+}
