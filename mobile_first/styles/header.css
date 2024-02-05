@@ -21,6 +21,9 @@
 .container_img{
     padding:1em;
 }
+.container_botao{
+    display: none; /*Desaparce com o botão de checked*/
+}
 .lista_menu{
     display: none;/*some com a lista*/
     position: absolute; /*Quero que o menu se movimente de acordo com o cabeçario*/
@@ -33,17 +36,16 @@
 .lista_menu-titulo, .lista_menu-item{
     background-color: var(--cor-cabecalho);
     padding: 1em;
-    font-size: 1rem;
 }
 .lista_menu-titulo{
     color: var(--cor-titulo);
-    font-family: var(--fonte-padrao);
     font-weight: 700;
+}
+.lista_menu_titulo, .lista_menu-item:hover{
+    cursor: pointer;
 }
 .lista_menu_link{
     text-decoration: none;
     color: var(--cor-azul);
-    font-family: var(--fonte-padrao);
-    font-weight: 400;
     text-transform: uppercase;
 }
