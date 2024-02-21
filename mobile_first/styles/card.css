@@ -1,0 +1,40 @@
+.card{
+    background-color: var(--cor-branco);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.027);
+    margin: 1em;
+    padding: 1em;
+}
+.card_descrição{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.subtitulo_card{
+    font-weight: 700;
+    color: var(--cor-titulo);
+}
+.titulo_card{
+    font-weight: 700;
+    color: #002F52;
+    margin-bottom: 0.5em 0;
+}
+.card_botao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8em;
+}
+.botao_icon{
+    display: flex;
+    list-style: none;
+}
+.icon{
+    margin: 0 0.5em;
+}
+.botao_saibamais{
+    background-color: var(--cor-titulo);
+    color: var(--cor-branco);
+    padding: 0.8em 2.2em;
+    text-decoration: none;
+}
