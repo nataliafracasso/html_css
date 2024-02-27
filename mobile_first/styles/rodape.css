@@ -1,0 +1,11 @@
+hr{
+    margin: 2em 0 0 0;
+}
+.rodape{
+    padding: 1em;
+}
+.rodape_titulo{
+    font-family: var(--font-padrao);
+    font-size: 1rem;
+    font-weight: 400;
+}
