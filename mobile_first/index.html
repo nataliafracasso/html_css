@@ -36,7 +36,27 @@
            <h1 class="container_titulo"><b class="container_titulo_negrito">Alura</b>Books</h1>
         </div>
         <ul class="opcao">
-            <li class="opcao_item">Categoria</li>
+            <input type="checkbox"  id="opcao_menu" class="opcao_botao">
+            <label for="opcao_menu">
+                <li class="opcao_item">Categoria</li>
+            </label> 
+            <ul class="lista_menu">
+                <li class="lista_menu-item">
+                    <a class="lista_menu_link" href="#">Programação</a>
+                </li>
+                <li class="lista_menu-item">
+                    <a class="lista_menu_link" href="#">Front-End</a>
+                </li>
+                <li class="lista_menu-item">
+                    <a class="lista_menu_link" href="#">Infraestrutura</a>
+                </li>
+                <li class="lista_menu-item">
+                    <a class="lista_menu_link" href="#">Business</a>
+                </li>
+                <li class="lista_menu-item">
+                    <a class="lista_menu_link" href="#">Design & UX</a>
+                </li>
+            </ul>
             <li class="opcao_item">Favoritos</li>
             <li class="opcao_item">Minha Estante</li>
         </ul>
@@ -136,9 +156,11 @@
         </div>
     </section>
     <section class="contato">
+        <div class="contato_conteudo">
             <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
-            <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-            <input class="contato_email" type="email" placeholder="Cadastre seu e-mail">
+             <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p> 
+         </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato_email">
     </section>
     <hr/> <!--CRIA UMA LINHA-->
     <footer class="rodape">

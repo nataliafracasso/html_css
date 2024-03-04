@@ -40,8 +40,9 @@
     display: block;
 }
 .lista_menu-titulo, .lista_menu-item{
-    background-color: var(--cor-cabecalho);
+    background-color: var(--cor-branco);
     padding: 1em;
+    
 }
 .lista_menu-titulo{
     color: var(--cor-titulo);
@@ -85,4 +86,12 @@
     .cabecalho_menu-hamburguer{
         display: none;
     }
+    .opcao_botao:checked ~ .lista_menu{ /*Se o botão tiver checked, aparece a lista do menu*/
+        display: block;
+        width: auto;
+    } 
+    .opcao_botao{ /*Tira a bolinha de confirmação do checked*/
+    display: none;
+    }    
+
 }

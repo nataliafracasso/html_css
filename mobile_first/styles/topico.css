@@ -24,3 +24,14 @@
     background-color: var(--cor-titulo);
     
 }
+
+@media screen and (min-width:1024px) {
+
+    .topico_titulo{
+        font-size: 2rem;
+    }
+    .topico_item{
+        font-size: 2rem;
+    }
+
+}

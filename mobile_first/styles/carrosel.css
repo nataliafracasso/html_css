@@ -4,7 +4,7 @@
     text-align: center;
     background-color: var(--cor-branco);
     text-transform: uppercase;
-    padding: 1em 0 0.05em 0;
+    padding: 1em 0 0.5em 0;
 }
 .swiper-slide img{
     width: 100%;
@@ -15,4 +15,19 @@
 .swiper-pagination{
     position: inherit;
     margin:.5em 0;
+}
+@media screen and (min-width:1024px) {
+    .carrossel_titulo{
+        font-size: 2em;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0; 
+    }
+    .swiper{
+        width: 60%;
+    }
+    .swiper-button-prev, .swiper-button-next{ /*Selecionando as setas da lateral do carrosel */
+        display: block;
+        top: 62%;/*Posicionando as setas do carrossel p ficar no centro */
+    }
 }
