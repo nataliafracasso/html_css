@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; /*Quero que o menu se movimente de acordo com o cabeçario*/
+    position: relative; /*Quero que o menu se movimente de acordo com o cabeçalho*/
 }
 .opcao{
     display: none;
@@ -32,7 +32,7 @@
 }
 .lista_menu{
     display: none;/*some com a lista*/
-    position: absolute; /*Quero que o menu se movimente de acordo com o cabeçario*/
+    position: absolute; /*Quero que o menu se movimente de acordo com o cabeçalho*/
     top:100%; /*Posicionando o menu em baixo do cabeçalho*/
     width: 60vw;
 }
@@ -55,6 +55,9 @@
     text-decoration: none;
     color: var(--cor-azul);
     text-transform: uppercase;
+}
+.container_texto{
+    display: none;
 }
 
 @media screen and (min-width:1024px) {
@@ -93,5 +96,21 @@
     .opcao_botao{ /*Tira a bolinha de confirmação do checked*/
     display: none;
     }    
-
+    .container_texto{
+        display: none;
+    }
+}
+@media screen and (min-width:1300px) {
+    .cabecalho{
+        padding:0 2em;
+    }
+    .container_link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preto);
+    }
+   .opcao{
+    margin-right: auto; /*A margin ocupou todo o espaço, "empurrando o conteuto" para esquerda*/
+   }
 }

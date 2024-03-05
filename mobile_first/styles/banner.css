@@ -39,3 +39,14 @@
         background-position: 7em;/*Posição da lupa */
     }
 }
+@media screen and (min-width:1300px) {
+    .banner_pesquisa{
+        width: 35%;
+    }
+    .banner_pesquisa::placeholder{
+        background-position: 7em;
+    }
+    .banner{
+        padding: 6em 0;
+    }
+}
