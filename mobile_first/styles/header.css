@@ -39,10 +39,21 @@
 .container_botao:checked ~ .lista_menu{ /*Se o botão for selecionado vai aparecer a lista menu. O sinal ~, está funcionando como uma "condicional"*/
     display: block;
 }
+.container_botao:checked~.container_rotulo>.cabecalho_menu-hamburguer{
+    background-image:url(../img/Menu\ Aberto.svg);
+}
+.container_botao:checked~.container_rotulo{
+    background-color: var(--cor-azul);
+}
+.opcao_botao:checked ~ .opcao_rotulo > .opcao_item{
+    background-color: var(--cor-azul);
+    color: var(--cor-branco);
+}
+
 .lista_menu-titulo, .lista_menu-item{
     background-color: var(--cor-branco);
     padding: 1em;
-    
+    list-style-type: none;
 }
 .lista_menu-titulo{
     color: var(--cor-titulo);
@@ -56,6 +67,8 @@
     color: var(--cor-azul);
     text-transform: uppercase;
 }
+
+
 .container_texto{
     display: none;
 }
@@ -79,7 +92,7 @@
         display: flex;
     }
     .opcao_item{
-        padding: 0 1em;
+        padding: 1em 1em;
         text-transform: uppercase;
         color: var(--cor-preto);
     }
