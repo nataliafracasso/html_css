@@ -1,0 +1,27 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font: "Karla", sans-serif;
+    --cor-branco:#ffffff;
+    --cor-cinza:hsl(204, 43%, 93%);
+    --cor-cinza_escuro-:hsl(218, 22%, 67%);
+    --cor-azul: hsl(179, 62%, 43%);
+    --cor-amarelo:hsl(71, 73%, 54%);
+}
+
+/*- Mobile: 375px
+
+- Desktop: 1440px*/
+
+body{
+    background-color: var(--cor-cinza);
+    font-family: var(--font);
+    font-size: 1rem;
+}
+
