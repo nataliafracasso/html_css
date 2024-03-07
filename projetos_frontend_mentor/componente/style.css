@@ -9,19 +9,97 @@
 :root{
     --font: "Karla", sans-serif;
     --cor-branco:#ffffff;
+    --destaque-texto:#f5f5f5e7;
     --cor-cinza:hsl(204, 43%, 93%);
     --cor-cinza_escuro-:hsl(218, 22%, 67%);
     --cor-azul: hsl(179, 62%, 43%);
+    --cor-azul-claro:hsla(179, 62%, 43%, 0.705);
     --cor-amarelo:hsl(71, 73%, 54%);
 }
 
-/*- Mobile: 375px
+/*- Mobile: 375px */
 
-- Desktop: 1440px*/
 
 body{
+
     background-color: var(--cor-cinza);
     font-family: var(--font);
     font-size: 1rem;
-}
 
+}
+.container_principal{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55%;
+    border-radius: 8px;
+    background-color: var(--cor-branco);
+    box-shadow: 1px 1px  5px rgba(0, 0, 0, 0.24) ;
+}
+.primeiro_container{
+    grid-column: 1 / span 2;
+}
+.primeiro_container_titulo{
+    font-weight: 700;
+    color: var(--cor-azul);
+}
+.primeiro_container_subtitulo{ 
+    font-weight: 500;
+    padding: 1.5em 0 0.5em 0;
+    color: var(--cor-amarelo);
+}
+.primeiro_container_texto{
+    color: var(--cor-cinza_escuro-);
+    padding: 0.3em 0 0.3em 0;
+}
+.segundo_container{
+    background-color: var(--cor-azul);
+    border-bottom-left-radius: 8px;
+}
+.segundo_container_texto{
+    padding: 0.8em 0 1.8em 0;
+}
+.terceiro_container{
+    background-color: var(--cor-azul-claro);
+    border-bottom-right-radius: 8px;
+}
+.terceiro_container_texto{
+    line-height: 1.5em;
+}
+.primeiro_container, .segundo_container, .terceiro_container{
+    padding: 3em; /*Espaço entre a borda do conteiner e o conteudo*/
+}
+.segundo_container, .terceiro_container{
+    color: var(--cor-branco);
+}
+.container_subtitulo{
+    margin-bottom: 1em;
+}
+.destaque{
+    font-size: 2em;
+    padding-right: 0.5em;
+}
+.destaque_texto{
+    font-weight: 300;
+    color: var(--destaque-texto);
+}
+.botao{
+    display: block;
+    width: 90%;
+    padding: 0.8em;
+    font-weight: 700;
+    color: var(--cor-branco);
+    background-color: var(--cor-amarelo);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.144);
+    border-radius: 7px;
+    text-decoration:none;
+    text-align: center;
+}
