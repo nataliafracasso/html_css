@@ -23,14 +23,10 @@ body{
     font-family: var(--font);
     font-size: 1rem;
 
-}
-.container_principal{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 .container{
 
@@ -103,14 +99,12 @@ body{
     text-align: center;
 }
 @media screen and (max-width:850px) {
-    body{
-        height: 100vh;
-    }
+
     .container{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 1em 0 1em 0;
+        width: 90%;
+        height: 100vh;
+        margin: 10em 0 10em;
     }
 }
