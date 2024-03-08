@@ -101,17 +101,16 @@ body{
     text-align: center;
 }
 @media screen and (max-width:850px) {
-
     .container{
         display: flex;
         flex-direction: column;
-        margin: 5em 0 5em 0;
+        margin: 10em 0 10em 0;
         width: 90%;
         height: 100%;
     }
     .primeiro_container, .segundo_container, .terceiro_container{
         height: 80%;
-        padding: 2em; /*Espaço entre a borda do conteiner e o conteudo*/
+        padding: 1.5em; /*Espaço entre a borda do conteiner e o conteudo*/
     }
     .primeiro_container_texto{
         padding: 0.2em 0 0.2em 0;
