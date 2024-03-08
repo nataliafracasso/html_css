@@ -101,19 +101,29 @@ body{
     text-align: center;
 }
 @media screen and (max-width:850px) {
+    body{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
     .container{
         display: flex;
         flex-direction: column;
-        margin: 10em 0 10em 0;
-        width: 90%;
-        height: 100%;
+        margin: 2em 0 2em 0;
+        width: 90%; /*define a largura do contêiner para 90% da largura do elemento pai.*/
+
     }
     .primeiro_container, .segundo_container, .terceiro_container{
-        height: 80%;
         padding: 1.5em; /*Espaço entre a borda do conteiner e o conteudo*/
     }
+    .primeiro_container_subtitulo{
+        padding-bottom: 1em;
+    }
     .primeiro_container_texto{
-        padding: 0.2em 0 0.2em 0;
+        display: inline;
+        line-height: 1.7em;
     }
     .segundo_container{
         border-radius: 0;
