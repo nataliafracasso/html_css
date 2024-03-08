@@ -65,9 +65,11 @@ body{
     background-color: var(--cor-azul-claro);
     border-bottom-right-radius: 8px;
 }
-.terceiro_container_texto{
-    line-height: 1.5em;
-    
+.terceiro_container_lista{
+    list-style-type: none;
+}
+.terceiro_container_item{
+    padding-bottom: 0.3em;
 }
 .primeiro_container, .segundo_container, .terceiro_container{
     padding: 3em; /*Espaço entre a borda do conteiner e o conteudo*/
@@ -103,13 +105,16 @@ body{
     .container{
         display: flex;
         flex-direction: column;
-        width: 80%;
-        height: 100%;
         margin: 5em 0 5em 0;
+        width: 90%;
+        height: 100%;
     }
     .primeiro_container, .segundo_container, .terceiro_container{
-        height: 100%;
+        height: 80%;
         padding: 2em; /*Espaço entre a borda do conteiner e o conteudo*/
+    }
+    .primeiro_container_texto{
+        padding: 0.2em 0 0.2em 0;
     }
     .segundo_container{
         border-radius: 0;
