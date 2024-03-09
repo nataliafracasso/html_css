@@ -1,0 +1,80 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+
+    --cor-preto:hsl(0, 0%, 12%);
+    --cor-branco:hsl(0, 0%, 100%);
+    --cor-verde:hsl(75, 94%, 57%);
+    --cor-preto-transparente:hsl(0, 0%, 20%);
+    --cor-preto-fundo:rgba(44, 44, 44, 0.514);
+    --font:"Inter", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fonte-destaque{
+    color: var(--cor-verde);
+    font-weight: 800;
+}
+body{
+    height: 100vh;
+    background-color: var(--cor-preto);
+    font-size: 1rem;
+    font-family: var(--font);
+    color: var(--cor-branco);
+}
+.container{
+    width: 350px;
+    background-color: var(--cor-preto-fundo);
+    padding: 1em 0 1em 0;
+    margin:2em 0 2em 0;
+    border-radius: 0.8em;
+}
+
+.topo_img{
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+}
+.container_topo_titulo{
+    font-size: 1.8rem;
+    margin: 1em 0 0.3em 0;
+}
+.conteiner_topo_texto{
+    padding: 2em 0 1em 0;
+}
+.botao{
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor-preto-transparente);
+    font-weight: 800;
+    color: var(--cor-branco);
+    padding: 0.8em;
+    width: 160%;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
+.botao:hover{
+    cursor: pointer;
+    color: var(--cor-preto);
+    background-color: var(--cor-verde);
+}
+@media screen and (min-width:500px) {
+    .container{
+        width: 400px;
+    }
+    .botao{
+        width: 185%;
+    }
+}
+
