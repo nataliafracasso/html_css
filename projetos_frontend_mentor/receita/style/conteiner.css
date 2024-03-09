@@ -1,0 +1,15 @@
+.conteiner{
+    width: 80%;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--cor-verde-claro) ;
+}
+.conteiner_lista{
+    padding-left: 1.5em;
+}
+.conteiner_item{
+    padding: 0 0 1em 1em;
+}
+.topico_lista_destaque{
+    color: var(--cor-marrom);
+}

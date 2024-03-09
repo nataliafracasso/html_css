@@ -1,0 +1,29 @@
+.conteiner_final{
+    width: 80%;
+    padding-bottom: 2em;
+}
+.caixa_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.conteiner_final_lista{
+    list-style-type: none;
+    padding: 1.2em 2em 0 0;
+    
+}
+.lista-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1em 0em 1em 0em;
+    border-bottom: 1px solid var(--cor-verde-claro);
+}
+.ultima_lista{
+    border-bottom: none;
+}
+.destaque_item{
+    font-weight: 600;
+    color: var(--cor-salmao);
+}

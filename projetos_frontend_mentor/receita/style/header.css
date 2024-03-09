@@ -1,0 +1,13 @@
+
+.header_img{
+    width: 100%;
+}
+.header_titulo{
+    font-weight: 500;
+    padding: 0.5em 1em 0.5em 1em;
+}
+.header_conteudo{
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 0 2em 0 2em;
+}

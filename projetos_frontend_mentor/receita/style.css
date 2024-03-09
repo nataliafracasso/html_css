@@ -1,0 +1,48 @@
+@charset "UFT-8";
+@import url(style/header.css);
+@import url(style/topico.css);
+@import url(style/conteiner.css);
+@import url(style/container_final.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+
+    --cor-salmao:hsl(14, 45%, 36%);
+    --cor-roxo:hsl(332, 51%, 32%);
+    --cor-branco: hsl(0, 0%, 100%);
+    --cor-branco-rosado:hsl(330, 100%, 98%);
+    --cor-laranja-claro: hsl(31, 53%, 90%);
+    --cor-verde-claro: hsl(30, 18%, 87%);
+    --cor-marrom: hsla(32, 10%, 34%, 0.897);
+    --cor-marrom-escuro: hsl(24, 5%, 18%);
+    --font-padrao:"Young Serif", serif;
+    --font-destaque: "Outfit", sans-serif;
+
+}
+body{
+    color: var(--cor-marrom-escuro);
+    font-size: 1rem;
+    font-family: var(--font-padrao);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_padrao{
+    color: var(--cor-salmao);
+    font-family: var(--font-padrao);
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+.font_texto_padrao{
+    color: var(--cor-marrom);
+    font-family: var(--font-destaque);
+}

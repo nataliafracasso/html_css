@@ -1,0 +1,22 @@
+
+
+.caixa_topico{
+    width: 310px;
+    padding: 1em 2em 1em 2em;
+    margin: 2em 0 2em 0;
+    font-family: var(--font-destaque);
+    color: var(--cor-marrom);
+    border-radius: 0.6em;
+    background-color: var(--cor-branco-rosado);
+}
+.caixa_topio_subtitulo{
+    font-weight: 600;
+    color: var(--cor-roxo);
+}
+.caixa_topico_lista{
+    padding: 1.5em 0 0 1em;
+}
+.topico_lista{
+    font-weight: 500;
+    padding: 0 0 1em 1em ;
+}
