@@ -47,11 +47,11 @@ body{
     border-radius: 50%;
 }
 .container_topo_titulo{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: 1em 0 0.3em 0;
 }
 .conteiner_topo_texto{
-    padding: 2em 0 1em 0;
+    padding: 2em 0 0.5em 0;
 }
 .botao{
     text-decoration: none;
