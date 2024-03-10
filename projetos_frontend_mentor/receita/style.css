@@ -45,6 +45,7 @@ body, .conteiner_principal, .header_conteudo{
 .font_texto_padrao{
     color: var(--cor-marrom);
     font-family: var(--font-destaque);
+    font-weight: 500;
 }
 @media screen and (min-width:1000px) {
     body{
@@ -58,9 +59,10 @@ body, .conteiner_principal, .header_conteudo{
     }
     .titulo_padrao{
         font-size: 2rem;
+        padding-bottom: 0.6em;
     }
     .font_texto_padrao{
         font-weight: 500;
-        padding-bottom: 0.6em;
+        padding-bottom: 0;
    }
 }

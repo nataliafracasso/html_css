@@ -9,6 +9,7 @@
     background-color: var(--cor-branco-rosado);
 }
 .caixa_topio_subtitulo{
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--cor-roxo);
 }

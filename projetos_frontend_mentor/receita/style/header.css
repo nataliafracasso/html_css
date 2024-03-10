@@ -6,8 +6,9 @@
     width: 100%;
 }
 .header_titulo{
+    font-size: 2rem;
     font-weight: 500;
-    padding:0 1.5em 1em 1.2em;
+    padding:0 0 1em 1em;
 }
 .header_conteudo{
     font-weight: 300;

@@ -1,7 +1,7 @@
 .conteiner{
     width: 80%;
     padding-bottom: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
     border-bottom: 1px solid var(--cor-verde-claro) ;
 }
 .conteiner_lista{
@@ -17,8 +17,7 @@
     .conteiner{
         width: 85%;
         padding-bottom: 2em;
-        margin: 0 2.5em 1em 0;
-
+        margin: 0 2.5em 1.5em 0;
     }
     
 }
