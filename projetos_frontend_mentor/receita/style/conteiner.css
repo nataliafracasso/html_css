@@ -13,3 +13,12 @@
 .topico_lista_destaque{
     color: var(--cor-marrom);
 }
+@media screen and (min-width:1000px) {
+    .conteiner{
+        width: 85%;
+        padding-bottom: 2em;
+        margin: 0 2.5em 1em 0;
+
+    }
+    
+}

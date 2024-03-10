@@ -26,7 +26,7 @@
     --font-destaque: "Outfit", sans-serif;
 
 }
-body{
+body, .conteiner_principal, .header_conteudo{
     color: var(--cor-marrom-escuro);
     font-size: 1rem;
     font-family: var(--font-padrao);
@@ -45,4 +45,22 @@ body{
 .font_texto_padrao{
     color: var(--cor-marrom);
     font-family: var(--font-destaque);
+}
+@media screen and (min-width:1000px) {
+    body{
+        background-color: var(--cor-branco-rosado);
+    }
+    .conteiner_principal{
+        width: 70%;
+        margin: 3em 0 3em 0;
+        background-color: var(--cor-branco);
+        border-radius: 1em;
+    }
+    .titulo_padrao{
+        font-size: 2rem;
+    }
+    .font_texto_padrao{
+        font-weight: 500;
+        padding-bottom: 0.6em;
+   }
 }

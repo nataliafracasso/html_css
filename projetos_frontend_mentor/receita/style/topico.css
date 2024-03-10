@@ -1,7 +1,6 @@
 
-
 .caixa_topico{
-    width: 310px;
+    width: 82%;
     padding: 1em 2em 1em 2em;
     margin: 2em 0 2em 0;
     font-family: var(--font-destaque);
@@ -19,4 +18,12 @@
 .topico_lista{
     font-weight: 500;
     padding: 0 0 1em 1em ;
+}
+
+@media  screen and (min-width:1000px) {
+    .caixa_topico{
+       margin-right: 3em;
+       width: 83%;
+    }
+    
 }
