@@ -1,0 +1,22 @@
+.conteiner_main{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    gap: 2em;
+    margin-top: 20em;
+}
+.main_titulo{
+    color: var(--cinza_escuro);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding:0 0.5em 0.8em 0.5em;
+}
+.conteudo_main{
+    padding: 1em 1.5em 1em 1.5em;
+}
+.main_img_computador, .main_img_desktop{
+    width: 80%;
+}
+.segundo_conteiner_main{
+    padding-top: 2em;
+}

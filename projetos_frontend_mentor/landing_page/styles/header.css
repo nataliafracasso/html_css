@@ -1,0 +1,22 @@
+.conteiner_topo{
+    width: 100%;
+    background-image: url(../img/bg-header-mobile.png) ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    display: grid;
+    grid-template-rows: 60% 25% 35%;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+} 
+.topo_titulo{
+    color: var(--cinza_escuro);
+    font-weight: 600;
+    font-size: 2rem;
+    padding:0 0.5em 0.8em 0.5em;
+}
+.topo_img_logo{
+    padding-top: 6em;
+}
