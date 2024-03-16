@@ -1,22 +1,57 @@
 .conteiner_main{
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     justify-items: center;
     gap: 2em;
-    margin-top: 20em;
+    margin-top: 16em;
 }
 .main_titulo{
     color: var(--cinza_escuro);
     font-weight: 600;
     font-size: 1.5rem;
-    padding:0 0.5em 0.8em 0.5em;
-}
-.conteudo_main{
-    padding: 1em 1.5em 1em 1.5em;
-}
-.main_img_computador, .main_img_desktop{
-    width: 80%;
+    padding: 0 1.5em 0.7em 1.5em;
 }
 .segundo_conteiner_main{
-    padding-top: 2em;
+    padding-top:2.5em; /*Espaço entre a segunda section do main e a imagem*/
+}
+.terceiro_conteudo_main{
+    padding: 3em 2em 4em 2em;
+}
+.conteudo_main{
+    padding: 0 2em 2.8em 2em; /*Espaçamento entre os textos*/
+}
+.main_img_computador, .main_img_desktop{
+    width: 85%;
+}
+.primiera_lista, .segunda_lista{
+    list-style-type: none;
+}
+.primeiro_item_lista{
+    padding-bottom: 3em; /*Espaço entre as listas*/
+}
+.primeiro_item_img{
+    padding-bottom: 2em; /*Espaço entre o icon da lista e o texto*/
+}
+.segunda_lista{
+    padding: 4em 0 2.5em 0;
+}
+.segundo_item_lista{
+    padding-bottom: 2.5em;
+}
+.segundo_img_lista{
+    width: 40%;
+}
+.conteiner_segundo_botao{
+    padding: 1.7em 0 1em 0;
+}
+.segundo_botao{
+    width: 90%;
+    color: #f0f0f0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
 }

@@ -12,6 +12,7 @@
     gap: 2em;
 } 
 .topo_titulo{
+    text-align: center;
     color: var(--cinza_escuro);
     font-weight: 600;
     font-size: 2rem;
@@ -19,4 +20,15 @@
 }
 .topo_img_logo{
     padding-top: 6em;
+}
+.primeiro_botao{
+    width: 160%;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8em;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
 }
