@@ -25,6 +25,9 @@
     justify-items: center;
     align-items: center;
     gap: 2em;
-
     font-weight: 500;
+}
+.terceiro_item_ista:hover{
+    color: var(--verde_claro);
+    cursor: pointer;
 }

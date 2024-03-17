@@ -55,3 +55,48 @@
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
 }
+@media screen and (min-width:800px) {
+    .conteiner_main{
+        margin-top: 12em;
+    }
+    .conteudo_flex{
+        width: 680px;
+    }
+    .conteiner_flex{
+        display: flex;
+        justify-items: flex-start;
+        gap: 5em;
+    }
+    .segundo_conteiner_main{
+        padding: 4em 0 0 0;
+    }
+    .main_img_computador{
+        width: 800px;
+       
+    }
+    .titulo_flex{
+        padding-left: 0;
+    }
+    .section_flex{
+        width: 350px;
+        text-align: start;
+        padding: 0 0 2.8em 0;
+    }
+    .terceiro_conteiner_main{
+        padding-top: 2em;
+    }
+    .terceiro_flex{
+        width: 500px;
+    }
+    .terceiro_conteiner_main{
+        display: grid;
+        justify-items: center;
+    }
+   .primiera_lista{
+        display: flex;
+        align-items: center;    
+   }
+   .primeiro_item_lista{
+        width: 350px;
+   }
+}
