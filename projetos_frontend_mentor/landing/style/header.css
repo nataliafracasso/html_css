@@ -1,0 +1,57 @@
+.conteiner_header{
+    background-image: url(../img/bg-hero-mobile.svg);
+    background-color: var(--azul_claro);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+.header_topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 1em 1em 1em;
+}
+.header_topo_img{
+    width: 110px;
+}
+.header_topo_botao{
+    width: 120px;
+    background-color: white;
+    color: var(--azul_escuro);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
+}
+.conteiner_header_conteudo{
+    text-align: center;
+    padding: 3em 0 3em 0;
+}
+.header_titulo{
+    font-weight: 600;
+    padding: 0 1.2em 0 1.2em;
+}
+.header_conteudo{
+    text-align: center;
+    padding: 1em 1.4em 1.7em 1.4em;
+}
+.header_botao{
+    display: inline-block;
+    width: 270px;
+    background-color: var(--pink);
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: 0.6em;
+    border-radius: 1.6em;
+}
+.conteiner_header_img{
+    display: grid;
+    justify-items: center;
+}
+.header_img{
+    width: 320px;
+}
