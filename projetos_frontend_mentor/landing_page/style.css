@@ -30,13 +30,6 @@ body{
     line-height: 1.6em;
     text-align: center;
 }
- .conteiner_segundo_botao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5em;
-    
-}
 .botao_verde{
     background-color: var(--verde_claro);
 }

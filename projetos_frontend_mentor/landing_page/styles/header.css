@@ -38,7 +38,7 @@
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
 }
-@media screen and (min-width:800px) {
+@media screen and (min-width:1250px) {
     .conteiner_topo{
         
         background-image: url(../img/bg-header-desktop.png);

@@ -9,7 +9,7 @@
     padding-bottom: 4em;
 }
 .footer_icon{
-    width: 15%;
+    width: 50px;
 }
 .terceira_lista{
     color: var(--cinza_escuro);
@@ -30,4 +30,31 @@
 .terceiro_item_ista:hover{
     color: var(--verde_claro);
     cursor: pointer;
+}
+@media screen and (min-width:1250px) {
+    .footer{
+        grid-template-columns: 10% 40% 40% ;
+        grid-template-rows: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 6em;
+        padding: 2em 0 0.5em 2em;
+    }
+    .terceira_lista{
+      display: grid;
+      grid-template-columns: 50% 50% 50%;
+      grid-template-rows: 40% 40% ;
+      justify-items: start;
+      justify-content: center;
+      gap: 0.2em;
+      column-gap: 0.5em;
+    }
+    .footer_icon{
+        align-self: self-start;
+        padding-top: 0.2em;
+    }
+    .quarta_lista{
+        padding-left:2em;
+        justify-self: flex-end;
+    }
 }
