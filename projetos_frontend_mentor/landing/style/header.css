@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
+    padding-bottom: 2em;
 }
 .header_topo{
     display: flex;
@@ -35,6 +36,10 @@
     padding: 0 1.2em 0 1.2em;
 }
 .header_conteudo{
+    font-family: var(--font-open);
+    font-weight: 600;
+    line-height: 1.4em;
+    color: var(--azul_escuro);
     text-align: center;
     padding: 1em 1.4em 1.7em 1.4em;
 }
