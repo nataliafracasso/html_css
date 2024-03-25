@@ -1,11 +1,14 @@
 .conteiner{
     display: grid;
     justify-items: center;
-    align-content: flex-end;
+   
+
+    position: relative;
+    top: 80px;
 }
 .conteiner_conteudo{
     width: 340px;
-    padding: 3em 0 3em 0;
+    padding: 2.5em 0 2.5em 0;
     border-radius: 1em;
     color: var(--azul_escuro);
     background-color: white;
@@ -22,15 +25,15 @@
     padding-top: 1.5em;
 }
 .botao{
-    width: 200px;
+    width: 220px;
     background-color: var(--pink);
     font-family: var(--font-open);
     text-decoration: none;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     text-align: center;
     padding: 1.2em;
     border-radius: 1.6em;
-    box-shadow: 0px 4px 4px 4px  rgba(0, 0, 0, 0.068);
+    box-shadow: 0px 0px 4px 4px  rgba(0, 0, 0, 0.068);
 }

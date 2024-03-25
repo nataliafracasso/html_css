@@ -2,7 +2,7 @@
     background-color: var(--azul_escuro);
     font-family: var(--font-open);
     color: white;
-    padding: 0 0 2em 0;
+    padding: 7.5em 0 2em 0;
 }
 .footer_titulo{
     padding: 1em 0 1em 2.5em;
@@ -23,11 +23,12 @@
     padding-bottom: 3.8em;
 }
 .lista_icon{
-    padding:1em 0 0.4em 1.6em;
+    padding:1em 0 0.2em 1.6em;
     font-size: 1.2rem;
     font-weight: 500;
 }
 .footer_conteudo{
     padding-top: 2em;
     text-align: center;
+    font-size: 0.7rem;
 }
