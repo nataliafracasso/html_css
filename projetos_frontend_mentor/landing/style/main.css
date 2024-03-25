@@ -9,7 +9,7 @@
     width: 320px;
     padding: 2.5em 1.5em 2.5em 1.5em;
     border-radius: 1em;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.027);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.027);
     margin-bottom: 2.5em;
 }
 .conteiner_main_img{
@@ -39,6 +39,7 @@
 @media screen and (min-width:1300px) {
     .conteiner_main{
         justify-items: center;
+        margin-top: 4em;
     }
     .conteiner_main_conteudo{
         width: 90%;

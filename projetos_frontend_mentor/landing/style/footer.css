@@ -22,7 +22,11 @@
 #location{
     padding-bottom: 3.8em;
 }
+.listas_footer{
+    list-style-type: none;
+}
 .lista_icon{
+    list-style-type: none;
     padding:1em 0 0.2em 1.6em;
     font-size: 1.2rem;
     font-weight: 500;
@@ -32,4 +36,39 @@
     padding-bottom: 0.5em;
     text-align: center;
     font-size: 0.7rem;
+}
+.lista_icon:hover{
+    text-decoration: var(--azul_claro) solid;
+}
+@media screen and (min-width:1300px) {
+    .conteiner_footer{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2em;
+        
+    }
+    .listas_footer{
+        padding-right: 2em;
+    }
+    .lista_footer_icon{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 40px 40px 40px;
+        justify-content: center;
+        align-content: center;
+        column-gap: 4em;
+        margin-bottom: 3.8em;
+    }
+    .lista_icon{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .footer_conteudo{
+        align-self: flex-end;
+        padding-bottom: 3em;
+    }
+    .lista_icon:hover{
+        cursor: pointer;
+        text-decoration:underline;
+    }
 }
