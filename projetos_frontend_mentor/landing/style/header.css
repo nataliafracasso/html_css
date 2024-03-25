@@ -60,3 +60,7 @@
 .header_img{
     width: 320px;
 }
+.header_botao:hover{
+    cursor: pointer;
+    background-color: var( --pink-claro);
+}
