@@ -39,5 +39,18 @@
 }
 .botao:hover{
     cursor: pointer;
+    color: var(--azul_claro);
     background-color: var( --pink-claro);
+}
+@media screen and (min-width:1300px) {
+    .conteiner{
+        top: 90px;
+    }
+    .conteiner_conteudo{
+        width: 570px;
+        padding: 3em 0 3em 0;
+    }
+    .conteiner_titulo{
+        font-size: 1.5rem;
+    }
 }

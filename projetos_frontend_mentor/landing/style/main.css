@@ -35,3 +35,39 @@
 #main_titulo_espaço{
     padding: 2.5em 1.2em 2.5em 1.2em;
 }
+
+@media screen and (min-width:1300px) {
+    .conteiner_main{
+        justify-items: center;
+    }
+    .conteiner_main_conteudo{
+        width: 90%;
+    }
+    .main_caixa_reverso{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 8em;
+        padding: 2em 2em 2em 8em;
+    }
+    .main_caixa{
+        display: flex;
+        align-items: center;
+        gap: 8em;
+    }
+    #main_titulo_espaço{
+        padding: 2em 5em 2em 8em;
+    }
+    .main_img{
+        width: 400px;
+    }
+    .main_titulo{
+        padding: 0 0 0.5em 0;
+        text-align: start;
+    }
+    .main_conteudo{
+        text-align: start;
+
+    }
+
+}

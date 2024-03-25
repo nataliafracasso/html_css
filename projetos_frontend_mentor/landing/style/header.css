@@ -60,7 +60,43 @@
 .header_img{
     width: 320px;
 }
+.header_topo_botao:hover{
+    color: var(--azul_cinza);
+}
 .header_botao:hover{
     cursor: pointer;
+    color: var(--azul_claro);
     background-color: var( --pink-claro);
+}
+@media screen and (min-width:1300px) {
+    .header_topo{
+     padding: 2em 4em 1em 5.8em;
+    }
+    .header_topo_img{
+        width: 130px;
+    }
+    .caixa_header{
+        display: flex;
+        padding: 2em 4em 0 4em;
+    }
+    .header_img{
+        width: 600px;
+    }
+    .conteiner_header_conteudo{
+        display: grid;
+        justify-items: flex-start;
+    }
+    .header_titulo{
+        font-size: 2rem;
+        text-align: start;
+        padding:1.5em 6em 0 1em;
+    }
+    .header_conteudo{
+        padding: 1em 6em 1.7em 2em;
+        text-align: start;
+    }
+    .caixa_botao{
+        padding-left: 2em;
+    }
+
 }
