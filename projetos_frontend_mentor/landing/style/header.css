@@ -69,6 +69,9 @@
     background-color: var( --pink-claro);
 }
 @media screen and (min-width:1300px) {
+    .conteiner_header{
+        background-image: url(../img/bg-hero-desktop.svg);
+    }
     .header_topo{
      padding: 2em 4em 1em 5.8em;
     }
