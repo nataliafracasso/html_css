@@ -1,0 +1,22 @@
+.item1{
+    background-image: url(../img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right+1.5em;
+    background-size: auto;
+    background-color: var(--violet);
+}
+.img > img{
+    border: 2px solid var( --violet-claro);
+}
+.nome{
+    color: var(--light-grayish);
+    font-weight: 500;
+}
+.especificacao{
+    font-size: 0.7em;
+    color: var( --light-gray);
+}
+.conteudo_destaque_roxo{
+    color: var(--White);
+    padding: 0.5em 1em 1em 0;
+}
