@@ -5,8 +5,8 @@
     background-size: auto;
     background-color: var(--violet);
 }
-.img > img{
-    border: 2px solid var( --violet-claro);
+#img_card_roxo{
+    border: 2px solid var(--violet-claro);
 }
 .nome_card_roxo{
     color: var(--light-grayish);

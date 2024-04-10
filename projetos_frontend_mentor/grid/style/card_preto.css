@@ -1,0 +1,18 @@
+.item4{
+    background-color: var(--very-blue);
+}
+#img_card_preto{
+    border: 2px solid var(--violet-claro);
+}
+.nome_card_preto{
+    color: var(--White);
+    font-weight: 500;
+}
+.especificacao_card_preto{
+    font-size: 0.7em;
+    color: var( --light-gray);
+}
+.conteudo_card_preto{
+    color: var( --light-grayish);
+    padding: 0.5em 0 0.8em 0;
+}

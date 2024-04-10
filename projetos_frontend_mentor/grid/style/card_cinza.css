@@ -1,4 +1,7 @@
-.img > img{
+.item2{
+    background-color: var(--dark-blue);
+}
+#img_card_cinza{
     border: 2px solid var(--light-grayish);
 }
 .nome{

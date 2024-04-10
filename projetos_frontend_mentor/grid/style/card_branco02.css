@@ -1,0 +1,22 @@
+.item5{
+    background-color: var(--White);
+}
+#card_img_kira{
+    border: 2px solid var(--light-gray);
+}
+.nome_card_kira{
+    color: var(--very-blue);
+    font-weight: 500;
+}
+.especificacao_card_kira{
+    font-size: 0.7em;
+    color: var( --dark-blue);
+}
+.conteudo_destaque_kira{
+    color: var(--dark-blue);
+    padding: 0.7em 0 0.8em 0;
+    width: 300px;
+}
+#conteudo_card_kira{
+    color: var(--dark-blue);
+}

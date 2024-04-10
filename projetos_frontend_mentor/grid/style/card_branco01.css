@@ -1,4 +1,7 @@
-.img > img{
+.item3{
+    background-color: var(--White);
+}
+#card_img_janette{
     border: 2px solid var(--light-grayish);
 }
 .nome_card_jeanette{
@@ -12,4 +15,8 @@
 .conteudo_destaque_branco01{
     color: var( --dark-blue);
     padding: 0.5em 0 0.8em 0;
+}
+
+#conteudo_card_janette{
+    color: var(--dark-blue);
 }
