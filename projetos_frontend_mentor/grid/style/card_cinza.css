@@ -1,0 +1,15 @@
+.img > img{
+    border: 2px solid var(--light-grayish);
+}
+.nome{
+    color: var(--light-grayish);
+    font-weight: 500;
+}
+.especificacao{
+    font-size: 0.7em;
+    color: var( --light-gray);
+}
+.conteudo_destaque_cinza{
+    color: var(--White);
+    padding: 0.7em 0 0.8em 0;
+}

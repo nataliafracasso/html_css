@@ -1,0 +1,15 @@
+.img > img{
+    border: 2px solid var(--light-grayish);
+}
+.nome_card_jeanette{
+    color: var(--very-blue);
+    font-weight: 500;
+}
+.especificacao_card_janette{
+    font-size: 0.7em;
+    color: var(  --dark-blue);
+}
+.conteudo_destaque_branco01{
+    color: var( --dark-blue);
+    padding: 0.5em 0 0.8em 0;
+}

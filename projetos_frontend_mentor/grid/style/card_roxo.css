@@ -8,15 +8,15 @@
 .img > img{
     border: 2px solid var( --violet-claro);
 }
-.nome{
+.nome_card_roxo{
     color: var(--light-grayish);
     font-weight: 500;
 }
-.especificacao{
+.especificacao_card_roxo{
     font-size: 0.7em;
     color: var( --light-gray);
 }
 .conteudo_destaque_roxo{
     color: var(--White);
-    padding: 0.5em 1em 1em 0;
+    padding: 0.5em 1em 0.8em 0;
 }
