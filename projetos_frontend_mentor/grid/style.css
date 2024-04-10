@@ -12,3 +12,50 @@
 
     --font-padrao:"Barlow Semi Condensed", sans-serif;
 }
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--light-grayish);
+}
+p,h2{
+    margin: 0%;
+}
+.conteiner_pai{
+    padding: 1.5em;
+}
+.item_conteiner{
+    padding: 2em;
+    border-radius: 0.5em;
+}
+.titulo{
+    display: flex;
+    gap: 1em;
+}
+.img > img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--light-gray);
+}
+.nome{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: start;
+    align-items: center;
+    align-content: center;
+}
+.item1{
+    background-color: var(--violet);
+}
+.item2{
+    background-color: var(--dark-blue);
+}
+.item3{
+    background-color: var(--White);
+}
+.item4{
+    background-color: var(--very-blue);
+}
+.item5{
+    background-color: var(--White);
+}
