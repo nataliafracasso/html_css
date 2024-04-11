@@ -59,7 +59,37 @@ p,h2{
 .conteudo_destaque{    
     font-size: 1.4em;
     font-weight: 600;
+    
+
 }
 .conteudo{
     color: var(--light-gray);
+}
+@media screen and (min-width:1300px) {
+    .conteiner_pai{
+        display: grid;
+        gap: 1em;
+        grid-template-areas: 
+        'roxo roxo cinza kira'
+        'janette  preto preto kira'
+        ;
+    }
+    .item_conteiner{
+        width: 350px;
+    }
+    .item1{
+        grid-area: roxo;
+    }
+    .item2{
+        grid-area:cinza ;
+    }
+    .item2{
+        grid-area: janette;
+    }
+    .item4{
+        grid-area: preto;
+    }
+    .item5{
+        grid-area: kira;
+    }
 }
