@@ -59,37 +59,45 @@ p,h2{
 .conteudo_destaque{    
     font-size: 1.4em;
     font-weight: 600;
-    
-
 }
 .conteudo{
     color: var(--light-gray);
 }
-@media screen and (min-width:1300px) {
+@media screen and (min-width:1000px) {
     .conteiner_pai{
         display: grid;
-        gap: 1em;
+        gap: 1.5em;
+        
         grid-template-areas: 
-        'roxo roxo cinza kira'
-        'janette  preto preto kira'
+        'roxo roxo roxo roxo cinza kira'
+        'janette  preto preto preto preto kira'
         ;
-    }
-    .item_conteiner{
-        width: 350px;
     }
     .item1{
         grid-area: roxo;
+        width: 490px;
+        height: 250px;
     }
     .item2{
         grid-area:cinza ;
+        width: 200px;
+        height: 250px;
     }
-    .item2{
+    .item3{
         grid-area: janette;
+        width: 200px;
+        height: 250px;
     }
     .item4{
         grid-area: preto;
+        width: 490px;
+        height: 250px;
     }
     .item5{
         grid-area: kira;
+        width: 220px;
+    }
+    .conteudo_destaque_kira{
+        width: 200px;
     }
 }

@@ -20,3 +20,9 @@
     color: var(--White);
     padding: 0.5em 1em 0.8em 0;
 }
+@media screen and (min-width:1000px) {
+    .item1{
+        background-position: top right+3.7em;  
+    }
+    
+}
