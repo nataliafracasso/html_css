@@ -1,0 +1,24 @@
+
+.conteiner_main{
+    display: grid;
+    justify-items: center;
+}
+.conteiner{
+   width: 100%;
+   padding: 2em 2em 1em 2em;
+}
+.primeiro_conteiner{
+    background-color: var(--cinza_claro);
+}
+.img_main{
+    width: 200px;
+}
+.titulo_main{
+    padding: 3em 0 1em 0;
+    font-size: 1.2rem;
+}
+.texto_main{
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    text-align: center;
+}

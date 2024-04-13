@@ -3,12 +3,17 @@
     justify-items: center;
     align-items: center;
     gap: 6em;
-    padding: 5.5em 0 4em 0;
+    padding: 5.5em 2em 0 2em;
+
+    background-image: url(../img/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
 }
 .aside_conteiner{
     display: grid;
     justify-items: flex-start;
-    width: 200px;
+    width: 190px;
 }
 .img_aside{
     width: 30px;
@@ -25,4 +30,5 @@
 .texto_aside_center{
     text-align: center;
     padding: 0 3em 0 3em;
+    margin-bottom: 8em;
 }

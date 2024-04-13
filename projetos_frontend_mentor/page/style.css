@@ -3,6 +3,7 @@
 
 @import url(style/header.css);
 @import url(style/aside.css);
+@import url(style/main.css);
 
 *{
     box-sizing: border-box;
@@ -24,7 +25,6 @@
 }
 body{
     font-family: var(--font_poppins);
-    padding: 2em;
 }
 .color{
     color: var(--azul_escuro);
