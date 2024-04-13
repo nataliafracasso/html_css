@@ -27,7 +27,9 @@
     font-weight: 800;
 }
 .texto_conteudo_header{
-    padding: 1em 1.1em 2em 1.1em ;
+    padding: 2em 0.5em 3.5em 0.5em ;
+    font-size: 0.8rem;
+    line-height: 1.5em;
 }
 .img_conteiner_header{
     display: grid;
