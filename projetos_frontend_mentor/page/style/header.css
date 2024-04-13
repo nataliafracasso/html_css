@@ -1,0 +1,38 @@
+
+.topo_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_header_topo{
+    width: 110px;
+}
+.botao_header_topo{
+    width: 100px;
+    padding: 0.4em;
+    font-size: 0.7rem;
+    color: var(--Pink);
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid var(--Pink);
+    border-radius: 20px;
+    box-shadow: 0 0 2px var(--rosa_claro);
+}
+.conteudo_header{
+    text-align: center;
+    padding: 6.5em 0 6em 0;
+}
+.titulo_header{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.texto_conteudo_header{
+    padding: 1em 1.1em 2em 1.1em ;
+}
+.img_conteiner_header{
+    display: grid;
+    justify-items: center;
+}
+.img_header{
+    width: 320px;
+}
