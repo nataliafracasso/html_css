@@ -1,0 +1,28 @@
+.aside{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 6em;
+    padding: 5.5em 0 4em 0;
+}
+.aside_conteiner{
+    display: grid;
+    justify-items: flex-start;
+    width: 200px;
+}
+.img_aside{
+    width: 30px;
+}
+.tamanho_span{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.texto_aside{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--cinza_escuro);
+}
+.texto_aside_center{
+    text-align: center;
+    padding: 0 3em 0 3em;
+}
