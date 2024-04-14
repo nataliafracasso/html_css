@@ -22,7 +22,7 @@
 .rodape_conteiner_botao{
     display: flex;
     justify-content: flex-end;
-    padding: 0.8em 0 4em 0;
+    padding: 0.8em 0 4.5em 0;
 }
 .rodape_botao{
     background-color: var(--Pink);

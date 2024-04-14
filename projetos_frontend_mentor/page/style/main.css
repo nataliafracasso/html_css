@@ -8,7 +8,7 @@
     width: 220px;
 }
 .titulo_main{
-    padding: 3em 0 1em 0;
+    padding: 3em 0 0.5em 0;
     font-size: 1.2rem;
 }
 .texto_main{
@@ -21,7 +21,7 @@
     padding-bottom: 3em;
 }
 .segundo_main{
-    padding: 10em 0 15em 0;
+    padding: 10em 2em 15em 2em;
     background-image: url(../img/bg-section-bottom-mobile-1.svg), url(../img/bg-section-top-mobile-2.svg);
     background-size: 100%;
     background-repeat: no-repeat, no-repeat;
