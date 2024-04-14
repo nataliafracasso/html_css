@@ -8,6 +8,7 @@
     width: 220px;
 }
 .titulo_main{
+    text-align: center;
     padding: 3em 0 0.5em 0;
     font-size: 1.2rem;
 }
@@ -44,12 +45,14 @@
 }
 @media screen and (min-width:1000px) {
     .conteiner_main{
-        padding: 4em 2.5em 2em 2.5em;
+        padding: 4em 3em 2em 3em;
+    
     }
     .img_main{
         width: 500px;
     }
     .titulo_main{
+        text-align: start;
         font-size: 2rem;
     }
     .texto_main{
@@ -69,11 +72,11 @@
         justify-content: space-evenly;
         gap:6em;
 
-        padding: 18em 2em 20em 2em;
+        padding: 16em 2em 16em 2em;
         background-image: url(../img/bg-section-bottom-desktop-1.svg), url(../img/bg-section-top-desktop-2.svg);
     }
     .quarto_conteiner{
-        padding: 22em 0 22em 0;
+        padding: 19em 0 18em 0;
         background-image: url(../img/bg-section-bottom-desktop-1.svg), url(../img/bg-footer-top-desktop.svg);
     }
     .quarto_titulo{

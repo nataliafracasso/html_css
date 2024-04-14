@@ -62,8 +62,11 @@
     font-size: 5rem;
     font-weight: 600;
     }
-    .aside_mensagem, .aside_comunidade{
-        padding: 0 1rem 0 1rem;
+    .aside_mensagem{
+       padding-right: 2em ;
+    }
+    .aside_comunidade{
+        padding-left: 2rem;
     }
     
 }
