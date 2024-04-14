@@ -34,6 +34,9 @@
     border-radius: 5px;
     padding: 0.7em 0 0.7em 0;
 }
+.rodape_botao:hover{
+    background-color: var(--rosa_claro);
+}
 .conteiner_rodape{
     display: flex;
     align-items: center;

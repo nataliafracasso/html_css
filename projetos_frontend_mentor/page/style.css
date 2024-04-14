@@ -47,3 +47,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.329);
 }
+.botao:hover{
+    cursor: pointer;
+    background-color: var(--rosa_claro);
+}
