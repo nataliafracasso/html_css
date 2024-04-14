@@ -23,6 +23,7 @@
 .segundo_main{
     padding: 10em 0 15em 0;
     background-image: url(../img/bg-section-bottom-mobile-1.svg), url(../img/bg-section-top-mobile-2.svg);
+    background-size: 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: center top, center bottom ;
 }
@@ -33,6 +34,7 @@
 .quarto_main{
     padding: 12em 0 12em 0;
     background-image: url(../img/bg-section-bottom-mobile-2.svg), url(../img/bg-footer-top-mobile.svg);
+    background-size: 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: top center, bottom center;
 }

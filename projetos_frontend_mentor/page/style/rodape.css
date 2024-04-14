@@ -34,3 +34,37 @@
     border-radius: 5px;
     padding: 0.7em 0 0.7em 0;
 }
+.conteiner_rodape{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.img_rodape{
+    width: 30px;
+    height: 30px;
+}
+.huddle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cinza_claro);
+}
+.segundo_conteud_rodape{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--cinza_claro);
+    line-height: 1.5em;
+    padding: 0.5em 0 1.5em 0;
+}
+.lista_rodape{
+    list-style-type: none;
+    padding-top: 1.2em;
+}
+.conteiner_lista{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+.texto_lista{
+    color: var(--cinza_claro);
+}
