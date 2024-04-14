@@ -51,7 +51,7 @@ body{
     cursor: pointer;
     background-color: var(--rosa_claro);
 }
-@media screen and (min-width:100px) {
+@media screen and (min-width:1000px) {
     .botao{
         width: 290px;
         padding: 1.6em;

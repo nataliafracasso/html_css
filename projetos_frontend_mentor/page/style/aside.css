@@ -37,8 +37,8 @@
     .aside{
         display: flex;
         justify-content: center;
-        gap: 16em;
-        padding: 6.5em 2em 20em 2em;
+        gap: 23em;
+        padding: 6.5em 2.5em 20em 2.5em;
 
         background-image: url(../img/bg-section-top-desktop-1.svg);
         background-size: 100%;
@@ -59,7 +59,7 @@
         margin-bottom: 0;
    }
    .tamanho_span{
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 600;
     }
     .aside_mensagem, .aside_comunidade{
