@@ -71,3 +71,28 @@
 .texto_lista{
     color: var(--cinza_claro);
 }
+@media screen and (min-width:1000px) {
+    .rodape{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        padding: 2em 2.5em 2em 2.5em;
+    }
+    .rodape_pesquisa, .rodape_dados{
+        width: 450px;
+    }
+    .continer_rodape_botao{
+        display: flex;
+        gap: 2em;
+    }
+    .rodape_conteiner_botao{
+        padding: 0;
+    }
+    .conteudo_rodape, .segundo_conteud_rodape{
+        font-size: 0.8rem;
+        padding-right: 10em;
+    }
+    .campo{
+        width: 350px;
+    }
+}
