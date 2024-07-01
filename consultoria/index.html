@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>NexConsultoria </title>
@@ -74,8 +71,73 @@
             </ul>
         </div>
     </div>
+    <section class="card">
+        <h2 class="titulo_card">Comentários</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide caixa_card">
+                <div class="card_conteudo">
+                    <h3 class="nome_card">João Silva, Diretor de Operações da TechNova Corp.</h3>
+                    <p class="conteudo_card">"A NEX Soluções Empresariais superou nossas expectativas. A equipe trouxe uma perspectiva nova e soluções práticas que aumentaram nossa eficiência operacional significativamente."</p>
+                </div>
+            </div>
+            <div class="swiper-slide caixa_card">
+                <div class="card_conteudo">
+                    <h3 class="nome_card">Maria Oliveira, CEO da EcoEnergy Solutions</h3>
+                    <p class="conteudo_card">"A parceria com a NEX foi essencial para o sucesso dos nossos projetos de energia sustentável. A expertise deles em gestão de projetos fez toda a diferença."</p>
+                </div>
+            </div>
+            <div class="swiper-slide caixa_card">
+                <div class="card_conteudo">
+                    <h3 class="nome_card">Maria Oliveira, CEO da EcoEnergy Solutions</h3>
+                    <p class="conteudo_card">"A parceria com a NEX foi essencial para o sucesso dos nossos projetos de energia sustentável. A expertise deles em gestão de projetos fez toda a diferença."</p>
+                </div>
+            </div>
+            <div class="swiper-slide caixa_card">
+                <div class="card_conteudo">
+                    <h3 class="nome_card">Carlos Mendes, Coordenador de TI da EduAdvance</h3>
+                    <p class="conteudo_card">"Graças à NEX, conseguimos implementar uma plataforma educacional robusta e intuitiva. A dedicação e conhecimento da equipe foram fundamentais para o nosso sucesso"</p>
+                </div>
+            </div>
+            <div class="swiper-slide caixa_card">
+                <div class="card_conteudo">
+                    <h3 class="nome_card">Ana Paula Santos, Gerente de Compliance da MediCare Plus</h3>
+                    <p class="conteudo_card">"A consultoria da NEX nos ajudou a navegar pelas complexas regulamentações do setor de saúde com facilidade. Recomendo fortemente os serviços deles"</p>
+                </div>
+            </div>
+            <div class="swiper-slide caixa_card">
+                <div class="card_conteudo">
+                    <h3 class="nome_card">Fernanda Lima, Diretora de Marketing da RetailMasters Ltd.</h3>
+                    <p class="conteudo_card">"A XYZ transformou nossa estratégia de marketing digital, gerando resultados impressionantes em pouco tempo. Uma equipe talentosa e profissional"</p>
+                </div>
+            </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
     <footer class="rodape">
         <p>site ilustrativo, desenvolvido para trabalho da faculdade</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10, //espaço em cada slide
+        slidesPerView: 1, // vai aparecer um slide por vez
+        pagination:{
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+      });
+    </script>
+    
 </body>
 </html>
