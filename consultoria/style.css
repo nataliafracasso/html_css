@@ -1,0 +1,135 @@
+@charset "uft-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root{
+    --azul_claro: hsl(193, 100%, 96%);
+    --azul_cinza: hsl(210, 4%, 20%);
+    --azul: hsl(228, 45%, 44%);
+    --azul_escuro: hsl(192, 100%, 9%);
+}
+body{
+
+    font-family: "Lora", serif;
+    font-size: 1rem;
+
+}
+.caixa_topo, .servicos{
+    padding: 2em 1.5em 3em 1.5em;
+    margin-bottom: 5em;
+    background-image: url(./img/bg-hero-mobile.svg);
+    background-color: var(--azul_claro);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+.caixa_topo_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topo_logo{
+    color: var(--azul_escuro);
+    font-weight: 600;
+    font-size: 3rem;
+}
+.topo_menu{
+
+    text-align: center;
+    list-style: none;
+    font-weight: 800;
+    padding: 0.6em;
+    color: var(--azul_cinza);
+    border: 1px solid var(--azul_cinza);
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.055);
+}
+.topo_telefone{
+    padding-top: 0.5em;
+}
+.topo_conteudo{
+    color: var(--azul_cinza);
+}
+.topo_titulo{
+    text-align: center;
+    font-family:'Lora';
+    color: var(--azul_cinza);
+    padding-bottom: 1em;
+}
+.topo_conteudo{
+    font-weight: 500;
+    padding-top: 5em;
+    text-align: justify;
+    line-height: 1.8em;
+}
+.caixa_main{
+padding: 2em 1.5em 3em 1.5em;
+}
+.caixa_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3em 1em 3em 1em;
+    margin-bottom: 2em;
+    border-radius: 17px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.062);
+}
+.conteudo{
+    color: var(--azul_cinza);
+}
+.conteuto_titulo{
+    padding-bottom: 1em;
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    line-height: 1.6em;
+}
+.imagem{
+    width: 200px;
+    margin-bottom: 2.5em;   
+}
+.servicos{
+   color: var(--azul_cinza);
+}
+.titulo_servicos{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 1.5em;
+}
+.conteudo_servico{
+    text-align: justify;
+    line-height: 1.8em;
+}
+.clientes{
+    padding: 4em 1.5em 4em 1.5em;
+    color: var(--azul_cinza);
+}
+.titulo_clientes{
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.lista_clientes{
+    text-align: center;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.lista{
+    padding-bottom: 1em;
+}
+.rodape{
+    padding-top:2em ;
+    margin-top: 4em;
+    background-color: var(--azul_escuro);
+    color: white;
+    text-align: center;
+}
