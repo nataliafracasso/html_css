@@ -20,8 +20,8 @@ body{
 
 }
 .caixa_topo{
-    padding: 2em 1.5em 3em 1.5em;
-    margin-bottom: 5em;
+    padding: 2em 1.8em 8em 1.8em;
+    margin-bottom: 8em;
    background-color: var(--azul_claro);
 }
 
@@ -34,7 +34,7 @@ body{
     text-transform: uppercase;
     color: var(--azul_escuro);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .topo_menu{
 
@@ -60,6 +60,7 @@ body{
     font-family:'Lora';
     color: var(--azul_cinza);
     padding-bottom: 1em;
+    padding-top: 3em;
 }
 .topo_conteudo{
     font-weight: 500;
@@ -176,7 +177,153 @@ padding: 2em 1.5em 3em 1.5em;
     position: inherit;
     margin:.7em 0;
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1000px){
+    .topo_conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        padding: 0em 2em 5em 2em ;
+        margin-bottom: 9em;
+        
+    }
+    .topo_titulo{
+        font-size: 2rem;
+        padding-top: 5em;
+        padding-bottom: 1.5em;
+    }
+    .texto_topo{
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 2em;
+        width: 90vw;
+    }
+    .topo_logo{
+        font-size: 3rem;
+    }
+    .caixa_main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2em;
+    }
+    .imagem{
+        width: 250px;
+    }
+    .conteudo{
+        width: 400px;
+    }
+    .conteuto_titulo{
+        font-size: 1.2rem;
+    }
+    .texto{
+        font-size: 1rem;
+        padding: 1em;
+    }
+    .servicos{
+        padding: 8em 2em 8em 2em;
+        margin-top: 5em;
+        margin-top: 3em;
+        margin-bottom: 5em;
+       
+    }
+    .clientes{
+        margin: 3em 0 6em 0;
+    }
+    .card{
+        padding-top: 6em;
+        padding-bottom: 5em;
+        margin-bottom: 10em;
+    }
+    .nome_card{
+        font-size: 1.8rem;
+        padding-top: 1em;
+    }
+    .conteudo_card{
+        font-size: 1.5rem;
+        padding: 0 1em 1em 1em ;
+    }
+}
+@media screen and (min-width:1200px) {
+    .topo_conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        padding: 0em 2em 5em 2em ;
+        margin-bottom: 4em;
+        
+    }
+    .topo_titulo{
+        font-size: 2.8rem;
+        padding-top: 5em;
+        padding-bottom: 1.5em;
+    }
+    .texto_topo{
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2em;
+        width: 90vw;
+    }
+    .topo_logo{
+        font-size: 5rem;
+    }
+    .topo_menu{
+        padding: 1em;
+        font-size: 1.5rem;
+        border-radius: 35px;
+    }
+    .caixa_main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .imagem{
+        width: 300px;
+    }
+    .conteudo{
+        width: 425px;
+    }
+    .conteuto_titulo{
+        font-size: 1.6rem;
+    }
+    .texto{
+        font-size: 1.4rem;
+        padding: 1em 0.6 1em 0.6em;
+    }
+    .servicos{
+        padding: 8em 2em 8em 2em;
+        margin-top: 5em;
+        margin-bottom: 5em;
+       
+    }
+    .titulo_servicos{
+        font-size: 1.8rem;
+    }
+    .conteudo_servico{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .clientes{
+        margin: 3em 0 6em 0;
+    }
+    .titulo_clientes{
+        font-size: 1.8rem;
+    }
+    .lista{
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    .card{
+        padding-top: 6em;
+        padding-bottom: 5em;
+        margin-bottom: 10em;
+    }
+    .titulo_card{
+        font-size: 1.8rem;
+    }
+
+}
+@media screen and (min-width:1000px) {
     .carrossel_titulo{
         font-size: 2em;
     }
@@ -186,9 +333,6 @@ padding: 2em 1.5em 3em 1.5em;
     .swiper{
         width: 60%;
     }
-    .swiper-button-prev, .swiper-button-next{ /*Selecionando as setas da lateral do carrosel */
-        display: block;
-        top: 62%;/*Posicionando as setas do carrossel p ficar no centro */
-    }
+ 
 }
 
